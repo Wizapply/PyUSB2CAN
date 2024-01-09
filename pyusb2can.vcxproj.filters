@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="candriver\candle.c">
+      <Filter>candriver</Filter>
+    </ClCompile>
+    <ClCompile Include="candriver\candle_ctrl_req.c">
+      <Filter>candriver</Filter>
+    </ClCompile>
+    <ClCompile Include="candriver\CandleApiInterface.cpp">
+      <Filter>candriver</Filter>
+    </ClCompile>
+    <ClCompile Include="candriver\CandleApiTiming.cpp">
+      <Filter>candriver</Filter>
+    </ClCompile>
+    <ClCompile Include="candriver\CanMessage.cpp">
+      <Filter>candriver</Filter>
+    </ClCompile>
+    <ClCompile Include="candriver\MeasurementInterface.cpp">
+      <Filter>candriver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="candriver\candle.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\candle_ctrl_req.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\candle_defs.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\CandleApiInterface.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\CandleApiTiming.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\CanMessage.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+    <ClInclude Include="candriver\MeasurementInterface.h">
+      <Filter>candriver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="candriver">
+      <UniqueIdentifier>{ed1f9c16-efd2-4ba2-9e33-d806e64295fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="python">
+      <UniqueIdentifier>{054056f1-93e2-46a8-a8eb-6bf6fd3e4e18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pyusb2can\pyusb2can.py">
+      <Filter>python</Filter>
+    </None>
+  </ItemGroup>
+</Project>
